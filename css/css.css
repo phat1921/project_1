@@ -1,0 +1,256 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  background: #fff;
+}
+
+input{
+    outline: none;
+}
+
+button{
+    outline: none;
+}
+/* phần đăng ký*/
+#form_login{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+
+#form_login form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    min-height: 500px;
+    color:black;
+    text-align:center;
+    line-height: 40px;
+    margin:auto;
+    padding:auto;
+}
+#form_login input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    text-align:center;
+}
+#form_login select{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    text-align:center;
+}
+
+#form_login button{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    background: #e8825d;
+    border: 2px solid #e8825d;
+    border-radius: 10px 10px 10px 10px;
+    outline: none; 
+
+}
+#form_login button:hover{
+    background: pink;
+    border:none;
+}
+
+
+
+
+/* Phần nội dung*/
+.wrapper .content{
+    width: (100% - 250px);
+    margin-top: 70px;
+    margin-left: 250px;
+    padding: 15px;
+    height: 100%;
+    transition: 0.3s;
+    min-height: 100vh;
+
+}
+.wrapper .content .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.wrapper .content .row input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 30px; 
+    
+}
+
+
+.wrapper .content .row button{
+    width: 50px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    background:  linear-gradient(to left, #879394, #327ba8);
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.wrapper .content .row button:hover{
+    background: linear-gradient(to left, orange, white);
+}
+
+
+.text-center{
+    text-align: center;
+    color: black;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.text-title{
+    text-align: left;
+    color: black;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.text-title span{
+    color: #4CCEE8;
+}
+.title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.form-group{
+    text-align: center;
+
+}
+.wrapper .content .content_content table{
+    max-width: 100%;
+    max-height: 100%;
+    border: 0px;
+    border-spacing: 15px;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    padding: auto;
+    background: #fff;
+    text-align:center;
+    box-shadow: 5px 3px 7px 3px gray;
+}
+.wrapper .content .content_content .info_customer{
+    text-align: left;
+    margin-left: 0; 
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content_content input{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.content_content .success{
+   width: 50px;
+    height: 30px;
+    background: #19a63a;
+    color: white;
+    font-weight: bold;
+    border: none; 
+}
+.content_content  .warning{
+    width: 50px;
+    height: 30px;
+    background: orange;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+
+.content_content  .danger{
+    width: 50px;
+    height: 30px;
+    background: red;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+.panel-body .success{
+   width: 50px;
+    height: 30px;
+    background: #19a63a;
+    color: white;
+    font-weight: bold;
+    border: none; 
+}
+.wrapper .content .content_content .page{
+    width: 100%;
+    margin-left: 700px; 
+    margin-top: 30px;
+}
+
+.wrapper .content .content_content .page a{
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 8px;
+    width:30px;
+    height:30px;
+    border: 1px solid black;
+    color: skyblue;
+}
+
+.wrapper .content .content_content .page a:active{
+    background:green;
+}
+
+.wrapper .content .content_content p{
+    color: #327ba8;
+}
+
+.wrapper .content .content_content .edit h2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.wrapper .content .content_content .edit input{
+    border:none;
+    border-bottom: dotted black;
+    border-radius: 1%;
+}
+.wrapper .content .content_content .edit select{
+    width: 100%;
+    border:none;
+    border-bottom: dotted black;
+}
+.wrapper .content .content_content .form-group{
+    max-width: 100%;
+    max-height: 100%;
+    border: 0px;
+    border-spacing: 15px;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    padding: auto;
+    background: #fff;
+    text-align:center;
+    box-shadow: 5px 3px 7px 3px gray;
+    padding:20px;
+}
+.wrapper .content .content_content .form-group select{
+    width: 26%;
+    height: 30px;
+    margin-left: 80px;
+    border-radius: 15px;
+    outline: none;
+}
+
